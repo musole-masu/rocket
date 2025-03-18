@@ -1,0 +1,42 @@
+# Ignore CLion IDE-specific files
+.idea/
+
+# Ignore CMake build directories
+cmake-build-debug/
+cmake-build-release/
+cmake-build-*/
+
+# Ignore compiled binary files
+*.o
+*.obj
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Ignore generated files from CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+
+# Ignore log and debug files
+*.log
+*.pid
+*.stackdump
+
+# Ignore user-specific config files
+.vscode/
+*.swp
+*~
+
+# Ignore dependency folders (if using package managers)
+__pycache__/
+venv/
+.clion-assist/
+.externalTools/
